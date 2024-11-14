@@ -1,0 +1,6 @@
+framework module MultipleLineChartView {
+  umbrella header "MultipleLineChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}
