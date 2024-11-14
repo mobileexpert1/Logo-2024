@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PdfTable_Cell" rowHeight="522" id="KGk-i7-Jjw" customClass="PdfTable_Cell" customModule="Logo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="469" height="522"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="469" height="522"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cRP-jH-x2Z">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="522"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4XB-4C-gr3">
+                                <rect key="frame" x="0.0" y="0.0" width="469" height="522"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QqK-Wt-iOK">
+                                        <rect key="frame" x="0.0" y="0.0" width="469" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JmD-Ef-tIK" customClass="LessPaddingLabel" customModule="Logo" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="10" width="339" height="12"/>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ak2-eh-tZl">
+                                                <rect key="frame" x="399" y="1" width="60" height="20"/>
+                                                <color key="backgroundColor" name="YesColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="70" id="MoC-JF-WVj">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="60"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="height" constant="25" id="cdl-VE-PeV">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                                                    </constraint>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="17"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" name="pdfCellColor"/>
+                                        <constraints>
+                                            <constraint firstItem="ak2-eh-tZl" firstAttribute="centerY" secondItem="JmD-Ef-tIK" secondAttribute="centerY" constant="-5" id="0fi-XF-qAP"/>
+                                            <constraint firstAttribute="bottom" secondItem="JmD-Ef-tIK" secondAttribute="bottom" id="2zY-be-NKJ"/>
+                                            <constraint firstItem="JmD-Ef-tIK" firstAttribute="leading" secondItem="QqK-Wt-iOK" secondAttribute="leading" constant="20" id="GSE-Gm-F8P"/>
+                                            <constraint firstItem="JmD-Ef-tIK" firstAttribute="top" secondItem="QqK-Wt-iOK" secondAttribute="top" constant="10" id="WYL-8B-85c"/>
+                                            <constraint firstItem="ak2-eh-tZl" firstAttribute="leading" secondItem="JmD-Ef-tIK" secondAttribute="trailing" constant="70" id="xsa-Ts-tdJ">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                                            </constraint>
+                                            <constraint firstAttribute="trailing" secondItem="ak2-eh-tZl" secondAttribute="trailing" constant="10" id="yQL-Vf-NIJ"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7Vl-bt-BHM">
+                                        <rect key="frame" x="0.0" y="22" width="469" height="500"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FQH-ui-o5w">
+                                                <rect key="frame" x="0.0" y="0.0" width="469" height="40"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="connect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETp-aj-g6l">
+                                                        <rect key="frame" x="20" y="5" width="65.5" height="30"/>
+                                                        <color key="backgroundColor" name="NAColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="65.5" id="qbL-0U-Jk7"/>
+                                                            <constraint firstAttribute="height" constant="40" id="tJ3-Fa-GSw">
+                                                                <variation key="heightClass=regular-widthClass=compact" constant="30"/>
+                                                            </constraint>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="22"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" name="pdfCellColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="ETp-aj-g6l" firstAttribute="centerY" secondItem="FQH-ui-o5w" secondAttribute="centerY" id="UUa-a5-yLt"/>
+                                                    <constraint firstAttribute="height" constant="60" id="c6r-ZN-GyJ">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                                                    </constraint>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CXV-iA-hdf">
+                                                <rect key="frame" x="0.0" y="40" width="469" height="40"/>
+                                                <subviews>
+                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1IA-bK-t7Z">
+                                                        <rect key="frame" x="20" y="0.0" width="439" height="40"/>
+                                                        <color key="backgroundColor" name="pdfCellColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="QAK-aB-fK5"/>
+                                                        </constraints>
+                                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xbl-XZ-6Fk" customClass="LeftAlignedCollectionViewFlowLayout" customModule="Logo" customModuleProvider="target">
+                                                            <size key="itemSize" width="128" height="128"/>
+                                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                        </collectionViewFlowLayout>
+                                                    </collectionView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="pdfCellColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="1IA-bK-t7Z" secondAttribute="trailing" constant="10" id="03G-p7-KUf"/>
+                                                    <constraint firstItem="1IA-bK-t7Z" firstAttribute="centerY" secondItem="CXV-iA-hdf" secondAttribute="centerY" id="CZd-G8-UrL"/>
+                                                    <constraint firstAttribute="height" constant="40" id="hCq-jg-ZYH"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="giB-3M-f13">
+                                                <rect key="frame" x="0.0" y="80" width="469" height="60"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AkX-b6-hOr">
+                                                        <rect key="frame" x="20" y="10" width="439" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="60" id="qrd-7x-ScT">
+                                                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                                                            </constraint>
+                                                        </constraints>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="18"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                                        </variation>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="pdfCellColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="AkX-b6-hOr" firstAttribute="centerY" secondItem="giB-3M-f13" secondAttribute="centerY" id="KQ0-jn-4Im"/>
+                                                    <constraint firstAttribute="trailing" secondItem="AkX-b6-hOr" secondAttribute="trailing" constant="10" id="Mde-D4-vLR"/>
+                                                    <constraint firstAttribute="height" constant="80" id="dYW-Vc-kB9">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="60"/>
+                                                    </constraint>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1RP-3K-wPP">
+                                                <rect key="frame" x="0.0" y="140" width="469" height="10"/>
+                                                <color key="backgroundColor" name="pdfCellColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="10" id="tVb-Fk-Kj9"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oHP-Zm-BjC">
+                                                <rect key="frame" x="0.0" y="150" width="469" height="220"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PFx-cF-9Mg">
+                                                        <rect key="frame" x="20" y="2" width="429" height="216"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" name="pdfCellColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="PFx-cF-9Mg" firstAttribute="leading" secondItem="oHP-Zm-BjC" secondAttribute="leading" constant="20" id="0ED-5W-KZJ"/>
+                                                    <constraint firstItem="PFx-cF-9Mg" firstAttribute="top" secondItem="oHP-Zm-BjC" secondAttribute="top" constant="2" id="Gbr-nl-lfX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="PFx-cF-9Mg" secondAttribute="bottom" constant="2" id="Lv7-PS-KKM"/>
+                                                    <constraint firstAttribute="height" constant="270" id="ckr-ls-nmG">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="220"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="trailing" secondItem="PFx-cF-9Mg" secondAttribute="trailing" constant="20" id="ik0-Mq-hhA"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQp-Zb-18v">
+                                                <rect key="frame" x="0.0" y="370" width="469" height="120"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="41I-Om-Mr7">
+                                                        <rect key="frame" x="0.0" y="30" width="469" height="0.0"/>
+                                                        <color key="backgroundColor" name="Shadow_Color"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" id="x7e-lE-dBl"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wet Pipe Section" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tjg-KP-U23">
+                                                        <rect key="frame" x="165.5" y="50" width="138.5" height="22"/>
+                                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
+                                                        <color key="textColor" name="NoColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=compact">
+                                                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="18"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="41I-Om-Mr7" secondAttribute="trailing" id="HZg-Te-Jqb"/>
+                                                    <constraint firstItem="41I-Om-Mr7" firstAttribute="top" secondItem="PQp-Zb-18v" secondAttribute="top" constant="30" id="RkN-Ey-IRq"/>
+                                                    <constraint firstItem="Tjg-KP-U23" firstAttribute="centerX" secondItem="PQp-Zb-18v" secondAttribute="centerX" id="qrj-fO-ELx"/>
+                                                    <constraint firstItem="Tjg-KP-U23" firstAttribute="top" secondItem="41I-Om-Mr7" secondAttribute="bottom" constant="20" id="sgA-0O-yK4"/>
+                                                    <constraint firstItem="41I-Om-Mr7" firstAttribute="leading" secondItem="PQp-Zb-18v" secondAttribute="leading" id="sk7-xS-2Ky"/>
+                                                    <constraint firstAttribute="height" constant="120" id="y8V-Bc-3NS"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbg-9E-zhe">
+                                                <rect key="frame" x="0.0" y="490" width="469" height="10"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="10" id="sOi-LG-Ees"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y0b-J4-ubN">
+                                                <rect key="frame" x="0.0" y="500" width="469" height="0.0"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" name="pdfCellColor"/>
+                                <constraints>
+                                    <constraint firstItem="7Vl-bt-BHM" firstAttribute="leading" secondItem="4XB-4C-gr3" secondAttribute="leading" id="DQM-E3-TRN"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Vl-bt-BHM" secondAttribute="bottom" id="Hyd-7B-Te8"/>
+                                    <constraint firstAttribute="trailing" secondItem="QqK-Wt-iOK" secondAttribute="trailing" id="J1U-re-5ax"/>
+                                    <constraint firstItem="QqK-Wt-iOK" firstAttribute="leading" secondItem="4XB-4C-gr3" secondAttribute="leading" id="OIz-pS-ca1"/>
+                                    <constraint firstItem="1IA-bK-t7Z" firstAttribute="leading" secondItem="JmD-Ef-tIK" secondAttribute="leading" id="RFw-kn-4yG"/>
+                                    <constraint firstItem="ETp-aj-g6l" firstAttribute="leading" secondItem="JmD-Ef-tIK" secondAttribute="leading" id="WZi-qq-fjC"/>
+                                    <constraint firstItem="AkX-b6-hOr" firstAttribute="leading" secondItem="JmD-Ef-tIK" secondAttribute="leading" id="glB-O6-qoP"/>
+                                    <constraint firstItem="7Vl-bt-BHM" firstAttribute="top" secondItem="JmD-Ef-tIK" secondAttribute="bottom" id="gwP-xk-9ET"/>
+                                    <constraint firstAttribute="trailing" secondItem="7Vl-bt-BHM" secondAttribute="trailing" id="nRQ-Wu-4xa"/>
+                                    <constraint firstItem="QqK-Wt-iOK" firstAttribute="top" secondItem="4XB-4C-gr3" secondAttribute="top" id="xbc-ZL-5za"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4XB-4C-gr3" firstAttribute="top" secondItem="cRP-jH-x2Z" secondAttribute="top" id="EYW-NQ-gLe"/>
+                            <constraint firstAttribute="trailing" secondItem="4XB-4C-gr3" secondAttribute="trailing" id="QTq-Y6-ump"/>
+                            <constraint firstAttribute="bottom" secondItem="4XB-4C-gr3" secondAttribute="bottom" id="XUv-gx-K4Y"/>
+                            <constraint firstItem="4XB-4C-gr3" firstAttribute="leading" secondItem="cRP-jH-x2Z" secondAttribute="leading" id="yLx-cV-7aa"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cRP-jH-x2Z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="57p-WT-x6o"/>
+                    <constraint firstItem="cRP-jH-x2Z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="MSw-gO-xsD"/>
+                    <constraint firstAttribute="trailing" secondItem="cRP-jH-x2Z" secondAttribute="trailing" id="kuw-AH-6nC"/>
+                    <constraint firstAttribute="bottom" secondItem="cRP-jH-x2Z" secondAttribute="bottom" id="o57-a8-bUK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="LeftBottomLabel" destination="ETp-aj-g6l" id="BLV-KI-TQr"/>
+                <outlet property="bottomLabels_View" destination="FQH-ui-o5w" id="ewv-YY-N0c"/>
+                <outlet property="collecBase_Height" destination="hCq-jg-ZYH" id="ao2-FN-xK2"/>
+                <outlet property="heading_BaseView" destination="PQp-Zb-18v" id="RRo-e6-Hxj"/>
+                <outlet property="imge_View" destination="oHP-Zm-BjC" id="URD-SM-xtW"/>
+                <outlet property="leftBottomLbl_Width" destination="qbL-0U-Jk7" id="ve7-TQ-ij1"/>
+                <outlet property="pageHeadingLabel" destination="Tjg-KP-U23" id="Axp-qI-4R6"/>
+                <outlet property="pdfCollec_BaseView" destination="CXV-iA-hdf" id="ucj-dB-Inn"/>
+                <outlet property="pdfCollectn_Height" destination="QAK-aB-fK5" id="BEw-x7-3Yd"/>
+                <outlet property="pdfTable_CollectnView" destination="1IA-bK-t7Z" id="yrV-wm-Qt8"/>
+                <outlet property="quesLabel" destination="JmD-Ef-tIK" id="ldz-n9-XQj"/>
+                <outlet property="textViewerLabel" destination="AkX-b6-hOr" id="AgU-YF-lXJ"/>
+                <outlet property="textViewer_Height" destination="qrd-7x-ScT" id="nmx-QE-eMg"/>
+                <outlet property="textViewrBaseView_Height" destination="dYW-Vc-kB9" id="ilm-BB-3Mh"/>
+                <outlet property="textViewr_BaseView" destination="giB-3M-f13" id="g12-G8-7wp"/>
+                <outlet property="uploadImageView" destination="PFx-cF-9Mg" id="Aor-z0-ERB"/>
+                <outlet property="width_YesLbl" destination="MoC-JF-WVj" id="kab-Fy-UAt"/>
+                <outlet property="yesLabel" destination="ak2-eh-tZl" id="oPB-vz-OQF"/>
+            </connections>
+            <point key="canvasLocation" x="-108" y="206"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="NAColor">
+            <color red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NoColor">
+            <color red="0.77647058823529413" green="0.24313725490196078" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shadow_Color">
+            <color red="0.77999997138977051" green="0.77999997138977051" blue="0.80000001192092896" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="YesColor">
+            <color red="0.14509803921568629" green="0.55686274509803924" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="pdfCellColor">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

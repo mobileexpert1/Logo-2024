@@ -1,0 +1,270 @@
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "0HD-4f-hfW"; */
+"0HD-4f-hfW.text" = "Name";
+
+/* Class = "UILabel"; text = "Inspector Type"; ObjectID = "0Q3-Sr-Mxs"; */
+"0Q3-Sr-Mxs.text" = "Inspector Type";
+
+/* Class = "UILabel"; text = "299, NewTown Canada OHFJWEOIFJ DOJ GOIWJOIG O JGIOJDIGSP OSDGIOSIOJGISJG S DHSDHG SDOI ODSOGSDOGH SHOS "; ObjectID = "0a2-z3-kSR"; */
+"0a2-z3-kSR.text" = "299, NewTown Canada OHFJWEOIFJ DOJ GOIWJOIG O JGIOJDIGSP OSDGIOSIOJGISJG S DHSDHG SDOI ODSOGSDOGH SHOS ";
+
+/* Class = "UITextField"; placeholder = "Enter city"; ObjectID = "0cl-KC-dwq"; */
+"0cl-KC-dwq.placeholder" = "Enter city";
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "0fd-WN-pVV"; */
+"0fd-WN-pVV.text" = "Email Address";
+
+/* Class = "UITextField"; placeholder = "Enter date"; ObjectID = "0mP-mk-2wT"; */
+"0mP-mk-2wT.placeholder" = "Enter date";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "1vV-EW-AxK"; */
+"1vV-EW-AxK.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "No request found"; ObjectID = "2WC-d8-6GD"; */
+"2WC-d8-6GD.text" = "No request found";
+
+/* Class = "UITextField"; placeholder = "Enter time"; ObjectID = "4G2-vX-y6I"; */
+"4G2-vX-y6I.placeholder" = "Enter time";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "4P1-Og-QdG"; */
+"4P1-Og-QdG.text" = "State";
+
+/* Class = "UILabel"; text = "Postal Code"; ObjectID = "5fe-wd-rKA"; */
+"5fe-wd-rKA.text" = "Postal Code";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "5ot-ku-7Nf"; */
+"5ot-ku-7Nf.placeholder" = "Email Address";
+
+/* Class = "UILabel"; text = "100%"; ObjectID = "6db-CB-Dvh"; */
+"6db-CB-Dvh.text" = "100%";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "6e1-zN-DJF"; */
+"6e1-zN-DJF.placeholder" = "City";
+
+/* Class = "UILabel"; text = "No request found"; ObjectID = "6xD-qg-9tl"; */
+"6xD-qg-9tl.text" = "No request found";
+
+/* Class = "UILabel"; text = "L o g i n"; ObjectID = "71e-aE-aV1"; */
+"71e-aE-aV1.text" = "L o g i n";
+
+/* Class = "UILabel"; text = "Bill To"; ObjectID = "8fa-zk-BYC"; */
+"8fa-zk-BYC.text" = "Bill To";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "9Zc-6S-v82"; */
+"9Zc-6S-v82.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Discharge"; ObjectID = "9vn-yu-gLz"; */
+"9vn-yu-gLz.text" = "Discharge";
+
+/* Class = "UILabel"; text = "Driver"; ObjectID = "CdE-FC-1i0"; */
+"CdE-FC-1i0.text" = "Driver";
+
+/* Class = "UILabel"; text = "Requests Listings"; ObjectID = "Ce3-fX-8SZ"; */
+"Ce3-fX-8SZ.text" = "Requests Listings";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "DHn-DP-glP"; */
+"DHn-DP-glP.text" = "Name";
+
+/* Class = "UILabel"; text = "State"; ObjectID = "DPt-i3-zRi"; */
+"DPt-i3-zRi.text" = "State";
+
+/* Class = "UILabel"; text = "Inspector's Signature"; ObjectID = "Dtt-et-w7E"; */
+"Dtt-et-w7E.text" = "Inspector's Signature";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "Euo-kL-1AH"; */
+"Euo-kL-1AH.text" = "Home";
+
+/* Class = "UILabel"; text = "+91 9876543210"; ObjectID = "GW0-1R-UkS"; */
+"GW0-1R-UkS.text" = "+91 9876543210";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "HLw-qb-odp"; */
+"HLw-qb-odp.placeholder" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "Enter type"; ObjectID = "IrP-ra-TQe"; */
+"IrP-ra-TQe.placeholder" = "Enter type";
+
+/* Class = "UILabel"; text = "299, NewTown Canada OHFJWEOIFJ DOJ GOIWJOIG O JGIOJDIGSP OSDGIOSIOJGISJG S DHSDHG SDOI ODSOGSDOGH SHOS "; ObjectID = "J8O-07-nHo"; */
+"J8O-07-nHo.text" = "299, NewTown Canada OHFJWEOIFJ DOJ GOIWJOIG O JGIOJDIGSP OSDGIOSIOJGISJG S DHSDHG SDOI ODSOGSDOGH SHOS ";
+
+/* Class = "UITextField"; placeholder = "Enter name"; ObjectID = "Jfy-ED-qKZ"; */
+"Jfy-ED-qKZ.placeholder" = "Enter name";
+
+/* Class = "UILabel"; text = "John Smith"; ObjectID = "KFQ-yC-dAp"; */
+"KFQ-yC-dAp.text" = "John Smith";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "Kdc-g0-wR5"; */
+"Kdc-g0-wR5.text" = "Location";
+
+/* Class = "UILabel"; text = "Add this section to PDF"; ObjectID = "Kf0-Eq-fOM"; */
+"Kf0-Eq-fOM.text" = "Add this section to PDF";
+
+/* Class = "UILabel"; text = "REPORT"; ObjectID = "KrF-Hb-V5R"; */
+"KrF-Hb-V5R.text" = "REPORT";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "LGk-kT-40l"; */
+"LGk-kT-40l.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Flow Test"; ObjectID = "LY4-Ex-0aX"; */
+"LY4-Ex-0aX.text" = "Flow Test";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "NPm-EA-VYB"; */
+"NPm-EA-VYB.title" = "HOME";
+
+/* Class = "UITextField"; placeholder = "Enter State"; ObjectID = "NXj-ve-08x"; */
+"NXj-ve-08x.placeholder" = "Enter State";
+
+/* Class = "UILabel"; text = "Assign Time"; ObjectID = "O2S-Fv-L8L"; */
+"O2S-Fv-L8L.text" = "Assign Time";
+
+/* Class = "UILabel"; text = "150%"; ObjectID = "OAX-6j-BQ2"; */
+"OAX-6j-BQ2.text" = "150%";
+
+/* Class = "UILabel"; text = "Bill To"; ObjectID = "OCn-gd-Tlk"; */
+"OCn-gd-Tlk.text" = "Bill To";
+
+/* Class = "UILabel"; text = "Address Line 1"; ObjectID = "OhX-cb-T8j"; */
+"OhX-cb-T8j.text" = "Address Line 1";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "PD7-1g-vSE"; */
+"PD7-1g-vSE.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Churn"; ObjectID = "QOb-we-Bcu"; */
+"QOb-we-Bcu.text" = "Churn";
+
+/* Class = "UILabel"; text = "Inspection Type"; ObjectID = "QX9-8X-ZRS"; */
+"QX9-8X-ZRS.text" = "Inspection Type";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "Wy8-y0-EvZ"; */
+"Wy8-y0-EvZ.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wy8-y0-EvZ"; */
+"Wy8-y0-EvZ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Enter postal code"; ObjectID = "X7f-xw-aXN"; */
+"X7f-xw-aXN.placeholder" = "Enter postal code";
+
+/* Class = "UITextField"; placeholder = "Enter Address"; ObjectID = "Y9u-dM-bOV"; */
+"Y9u-dM-bOV.placeholder" = "Enter Address";
+
+/* Class = "UILabel"; text = "John Smith"; ObjectID = "aWu-GJ-a7p"; */
+"aWu-GJ-a7p.text" = "John Smith";
+
+/* Class = "UILabel"; text = "+91 9876543210"; ObjectID = "adB-nh-Bf4"; */
+"adB-nh-Bf4.text" = "+91 9876543210";
+
+/* Class = "UITextField"; placeholder = "Enter name"; ObjectID = "b4I-Na-xkl"; */
+"b4I-Na-xkl.placeholder" = "Enter name";
+
+/* Class = "UITextField"; placeholder = "Enter email"; ObjectID = "bVd-5P-cz2"; */
+"bVd-5P-cz2.placeholder" = "Enter email";
+
+/* Class = "UIButton"; normalTitle = "Make Report"; ObjectID = "bkA-NW-Ix9"; */
+"bkA-NW-Ix9.normalTitle" = "Make Report";
+
+/* Class = "UILabel"; text = "Email Address"; ObjectID = "cYF-3x-sf6"; */
+"cYF-3x-sf6.text" = "Email Address";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "evW-vK-6fD"; */
+"evW-vK-6fD.text" = "User Name";
+
+/* Class = "UILabel"; text = "John Smith"; ObjectID = "eyv-RD-uqT"; */
+"eyv-RD-uqT.text" = "John Smith";
+
+/* Class = "UILabel"; text = "Inspection Type"; ObjectID = "fDF-qw-lAu"; */
+"fDF-qw-lAu.text" = "Inspection Type";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "gD2-fd-ze8"; */
+"gD2-fd-ze8.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Bill to"; ObjectID = "gaO-4a-2KX"; */
+"gaO-4a-2KX.placeholder" = "Bill to";
+
+/* Class = "UIButton"; normalTitle = "Make Report"; ObjectID = "gt9-29-Z1U"; */
+"gt9-29-Z1U.normalTitle" = "Make Report";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "hma-FP-vTf"; */
+"hma-FP-vTf.text" = "Mobile Number";
+
+/* Class = "UITextField"; placeholder = "State"; ObjectID = "i2f-9Q-6ah"; */
+"i2f-9Q-6ah.placeholder" = "State";
+
+/* Class = "UILabel"; text = "Enter email  address"; ObjectID = "icl-xq-Vkg"; */
+"icl-xq-Vkg.text" = "Enter email  address";
+
+/* Class = "UITextField"; placeholder = "Enter E-mail address"; ObjectID = "iiq-dW-pkf"; */
+"iiq-dW-pkf.placeholder" = "Enter E-mail address";
+
+/* Class = "UILabel"; text = "Assign Date"; ObjectID = "jmC-CN-bE7"; */
+"jmC-CN-bE7.text" = "Assign Date";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "juT-LA-RbT"; */
+"juT-LA-RbT.text" = "User Name";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "k6f-b9-tde"; */
+"k6f-b9-tde.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Client's Signature"; ObjectID = "k79-JW-oph"; */
+"k79-JW-oph.text" = "Client's Signature";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mHI-dV-93g"; */
+"mHI-dV-93g.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "mnA-g1-6Bi"; */
+"mnA-g1-6Bi.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mnA-g1-6Bi"; */
+"mnA-g1-6Bi.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "n6v-sH-KSf"; */
+"n6v-sH-KSf.text" = "City";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "oxf-aa-sdb"; */
+"oxf-aa-sdb.text" = "Location";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "px3-H3-EnD"; */
+"px3-H3-EnD.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "Postal Code"; ObjectID = "qmN-i6-dRH"; */
+"qmN-i6-dRH.text" = "Postal Code";
+
+/* Class = "UITextField"; placeholder = "Postal Code"; ObjectID = "qum-of-gQK"; */
+"qum-of-gQK.placeholder" = "Postal Code";
+
+/* Class = "UILabel"; text = "Speed/RPM"; ObjectID = "r9m-ZB-ktL"; */
+"r9m-ZB-ktL.text" = "Speed/RPM";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "sOb-4c-0Qx"; */
+"sOb-4c-0Qx.normalTitle" = "Done";
+
+/* Class = "UILabel"; text = "Suction"; ObjectID = "sgY-iR-9ED"; */
+"sgY-iR-9ED.text" = "Suction";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "syW-hJ-tj1"; */
+"syW-hJ-tj1.text" = "Type";
+
+/* Class = "UITextField"; placeholder = "Bill To"; ObjectID = "szO-pN-Nuz"; */
+"szO-pN-Nuz.placeholder" = "Bill To";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "trp-fh-QO6"; */
+"trp-fh-QO6.normalTitle" = "Clear";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "utF-Ah-DIY"; */
+"utF-Ah-DIY.normalTitle" = "Clear";
+
+/* Class = "UITextField"; placeholder = "Enter phone number"; ObjectID = "x9e-4I-k4H"; */
+"x9e-4I-k4H.placeholder" = "Enter phone number";
+
+/* Class = "UILabel"; text = "Mobile Number"; ObjectID = "xXE-n9-Axx"; */
+"xXE-n9-Axx.text" = "Mobile Number";
+
+/* Class = "UILabel"; text = "Address Line 1"; ObjectID = "xjF-va-Niz"; */
+"xjF-va-Niz.text" = "Address Line 1";
+
+/* Class = "UITextField"; placeholder = "Address Line 1"; ObjectID = "xjM-wJ-hUI"; */
+"xjM-wJ-hUI.placeholder" = "Address Line 1";
+
+/* Class = "UILabel"; text = "City"; ObjectID = "z4Q-fs-Xje"; */
+"z4Q-fs-Xje.text" = "City";
+
+/* Class = "UITextField"; placeholder = "Enter Password"; ObjectID = "zQQ-C1-aOw"; */
+"zQQ-C1-aOw.placeholder" = "Enter Password";

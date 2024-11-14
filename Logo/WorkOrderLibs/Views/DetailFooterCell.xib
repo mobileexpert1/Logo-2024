@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailFooterCell" customModule="FireDepartment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="427" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctR-3I-I6R">
+                    <rect key="frame" x="0.0" y="0.0" width="427" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL AMOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNl-1g-Kmp">
+                            <rect key="frame" x="30" y="26" width="116.5" height="18"/>
+                            <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="30"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u6K-KJ-fX2">
+                            <rect key="frame" x="337" y="0.0" width="90" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="90" id="JON-jU-kkI">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="180"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=regular">
+                                <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="30"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VIW-wN-etz">
+                            <rect key="frame" x="0.0" y="0.0" width="427" height="0.5"/>
+                            <color key="backgroundColor" red="0.73333333333333328" green="0.73333333333333328" blue="0.73333333333333328" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="0.5" id="6FX-0u-cha"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="u6K-KJ-fX2" secondAttribute="trailing" id="Fdo-nD-mok"/>
+                        <constraint firstItem="CNl-1g-Kmp" firstAttribute="leading" secondItem="ctR-3I-I6R" secondAttribute="leading" constant="30" id="Nn9-wJ-j6s"/>
+                        <constraint firstItem="CNl-1g-Kmp" firstAttribute="centerY" secondItem="ctR-3I-I6R" secondAttribute="centerY" id="auP-Ib-YKn"/>
+                        <constraint firstAttribute="trailing" secondItem="VIW-wN-etz" secondAttribute="trailing" id="btu-zA-Le4"/>
+                        <constraint firstItem="u6K-KJ-fX2" firstAttribute="top" secondItem="ctR-3I-I6R" secondAttribute="top" id="mQq-Lf-Txu"/>
+                        <constraint firstItem="VIW-wN-etz" firstAttribute="top" secondItem="ctR-3I-I6R" secondAttribute="top" id="o4y-JK-ZV3"/>
+                        <constraint firstItem="VIW-wN-etz" firstAttribute="leading" secondItem="ctR-3I-I6R" secondAttribute="leading" id="qFD-9c-ACQ"/>
+                        <constraint firstItem="u6K-KJ-fX2" firstAttribute="centerY" secondItem="CNl-1g-Kmp" secondAttribute="centerY" id="uII-FB-03Z"/>
+                        <constraint firstAttribute="bottom" secondItem="u6K-KJ-fX2" secondAttribute="bottom" id="xvo-bS-3S7"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ctR-3I-I6R" secondAttribute="trailing" id="fGZ-XG-WnZ"/>
+                <constraint firstItem="ctR-3I-I6R" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lVv-SP-h6x"/>
+                <constraint firstItem="ctR-3I-I6R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="vZV-Dr-7vF"/>
+                <constraint firstAttribute="bottom" secondItem="ctR-3I-I6R" secondAttribute="bottom" id="x6v-yr-YSC"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="totalAmount" destination="u6K-KJ-fX2" id="jr5-PD-XRV"/>
+            </connections>
+            <point key="canvasLocation" x="141.30434782608697" y="15.401785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

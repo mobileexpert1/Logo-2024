@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ClockListTableViewCell" rowHeight="88" id="KGk-i7-Jjw" customClass="ClockListTableViewCell" customModule="Logo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rlo-9g-fSZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="78"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Pupusa Loca #2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dEB-do-HkW">
+                                <rect key="frame" x="10" y="13" width="243" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="a5c-rI-1Pf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pfO-gC-X30">
+                                <rect key="frame" x="263" y="10" width="49" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="47" id="6AT-hg-yXR"/>
+                                    <constraint firstAttribute="height" constant="31" id="kyW-9F-WDf"/>
+                                </constraints>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4709 Bergenline Ave.  Union City  NJ 07087 4709 Bergenline Ave.  Union City  NJ 07087" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBN-Hf-7dB">
+                                <rect key="frame" x="10" y="46" width="243" height="26.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 Miles" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayl-Ji-06R">
+                                <rect key="frame" x="263" y="46" width="47" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="DHT-UX-D6R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.41176470588235292" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ayl-Ji-06R" firstAttribute="top" secondItem="pfO-gC-X30" secondAttribute="bottom" constant="5" id="5wS-xr-eqI"/>
+                            <constraint firstItem="dEB-do-HkW" firstAttribute="centerY" secondItem="pfO-gC-X30" secondAttribute="centerY" id="Bit-wh-Rvk"/>
+                            <constraint firstAttribute="trailing" secondItem="pfO-gC-X30" secondAttribute="trailing" constant="10" id="Fu6-5q-oZy"/>
+                            <constraint firstItem="pfO-gC-X30" firstAttribute="top" secondItem="rlo-9g-fSZ" secondAttribute="top" constant="10" id="JwT-sf-cBj"/>
+                            <constraint firstItem="ayl-Ji-06R" firstAttribute="width" secondItem="pfO-gC-X30" secondAttribute="width" id="KfF-MJ-hNA"/>
+                            <constraint firstAttribute="trailing" secondItem="ayl-Ji-06R" secondAttribute="trailing" constant="10" id="Tpl-my-qw9"/>
+                            <constraint firstItem="pfO-gC-X30" firstAttribute="leading" secondItem="dEB-do-HkW" secondAttribute="trailing" constant="10" id="aZE-U4-yS7"/>
+                            <constraint firstItem="iBN-Hf-7dB" firstAttribute="leading" secondItem="rlo-9g-fSZ" secondAttribute="leading" constant="10" id="b0O-LA-0WK"/>
+                            <constraint firstItem="iBN-Hf-7dB" firstAttribute="top" secondItem="pfO-gC-X30" secondAttribute="bottom" constant="5" id="onf-ld-NPT"/>
+                            <constraint firstItem="dEB-do-HkW" firstAttribute="leading" secondItem="rlo-9g-fSZ" secondAttribute="leading" constant="10" id="qml-bx-kht"/>
+                            <constraint firstItem="ayl-Ji-06R" firstAttribute="leading" secondItem="iBN-Hf-7dB" secondAttribute="trailing" constant="10" id="wKd-YL-6fK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="rlo-9g-fSZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4fu-qw-NS5"/>
+                    <constraint firstItem="rlo-9g-fSZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PNU-HK-HdI"/>
+                    <constraint firstAttribute="trailing" secondItem="rlo-9g-fSZ" secondAttribute="trailing" id="bSC-Qe-7cz"/>
+                    <constraint firstAttribute="bottom" secondItem="rlo-9g-fSZ" secondAttribute="bottom" constant="10" id="hZa-1j-fYp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cellVw" destination="rlo-9g-fSZ" id="B0y-gN-ahk"/>
+                <outlet property="distanceLbl" destination="ayl-Ji-06R" id="8er-tz-BTe"/>
+                <outlet property="projectAddressLbl" destination="iBN-Hf-7dB" id="UOA-zd-pZv"/>
+                <outlet property="projectNameLbl" destination="dEB-do-HkW" id="khu-O1-TGm"/>
+                <outlet property="punchSwitch" destination="pfO-gC-X30" id="w3S-GZ-lzX"/>
+            </connections>
+            <point key="canvasLocation" x="130.76923076923077" y="-17.772511848341232"/>
+        </tableViewCell>
+    </objects>
+</document>

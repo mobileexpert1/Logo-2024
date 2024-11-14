@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="KGk-i7-Jjw" customClass="MeetingsPdfTblCell" customModule="Logo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gn7-oU-FHN">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="73"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Client Meeting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0v-yB-EeY">
+                                <rect key="frame" x="10.000000000000007" y="10" width="122.66666666666669" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="DpL-FS-1aG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DamascusMedium" family="Damascus" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KkP-7u-XVY">
+                                <rect key="frame" x="10" y="28" width="314" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nLo-j7-VSO">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(25-05-2023, 01:45)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7I-1C-d9p">
+                                                <rect key="frame" x="0.0" y="0.0" width="309" height="40"/>
+                                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="13"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="X7I-1C-d9p" secondAttribute="bottom" id="21A-Gf-USg"/>
+                                            <constraint firstItem="X7I-1C-d9p" firstAttribute="leading" secondItem="nLo-j7-VSO" secondAttribute="leading" id="KG4-mC-ljI"/>
+                                            <constraint firstAttribute="trailing" secondItem="X7I-1C-d9p" secondAttribute="trailing" constant="5" id="RoW-nA-UPi"/>
+                                            <constraint firstItem="X7I-1C-d9p" firstAttribute="top" secondItem="nLo-j7-VSO" secondAttribute="top" id="hdn-3K-nB7"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="70G-np-OrO"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.41176470590000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="KkP-7u-XVY" secondAttribute="bottom" constant="5" id="9eH-M6-anA"/>
+                            <constraint firstAttribute="trailing" secondItem="KkP-7u-XVY" secondAttribute="trailing" constant="10" id="ERj-Zx-6MW"/>
+                            <constraint firstItem="j0v-yB-EeY" firstAttribute="leading" secondItem="Gn7-oU-FHN" secondAttribute="leading" constant="10" id="EaM-4D-0rt"/>
+                            <constraint firstItem="KkP-7u-XVY" firstAttribute="leading" secondItem="Gn7-oU-FHN" secondAttribute="leading" constant="10" id="mgQ-qG-fug"/>
+                            <constraint firstItem="j0v-yB-EeY" firstAttribute="top" secondItem="Gn7-oU-FHN" secondAttribute="top" constant="10" id="vbL-gz-iLA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gn7-oU-FHN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Heh-0L-hdj"/>
+                    <constraint firstItem="Gn7-oU-FHN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="SKx-uc-vQj"/>
+                    <constraint firstAttribute="bottom" secondItem="Gn7-oU-FHN" secondAttribute="bottom" constant="10" id="w7Q-m0-CZj"/>
+                    <constraint firstAttribute="trailing" secondItem="Gn7-oU-FHN" secondAttribute="trailing" id="yAt-nn-97U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainVw" destination="Gn7-oU-FHN" id="Ian-Pw-eZx"/>
+                <outlet property="pdfDateLbl" destination="X7I-1C-d9p" id="YB9-8z-FHz"/>
+                <outlet property="pdfTitleLbl" destination="j0v-yB-EeY" id="jvc-Ba-OuO"/>
+            </connections>
+            <point key="canvasLocation" x="146.56488549618319" y="0.35211267605633806"/>
+        </tableViewCell>
+    </objects>
+</document>

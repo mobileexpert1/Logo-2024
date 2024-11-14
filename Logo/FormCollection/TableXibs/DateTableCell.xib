@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DateTableCell" rowHeight="118" id="KGk-i7-Jjw" customClass="DateTableCell" customModule="Logo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="408" height="118"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmC-sq-aUx">
+                        <rect key="frame" x="5" y="5" width="398" height="108"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visual Inspection of entire system" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blK-Nw-O72">
+                                <rect key="frame" x="10" y="10" width="378" height="23"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rl6-JC-pbj">
+                                <rect key="frame" x="5" y="38" width="388" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Date" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="76K-VW-G0o" customClass="DatePickerField" customModule="Logo" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="10" width="378" height="40"/>
+                                        <color key="backgroundColor" name="Cell_Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="JHg-hP-MKd">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="40"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        </variation>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="2RP-j1-PDO">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="60"/>
+                                    </constraint>
+                                    <constraint firstItem="76K-VW-G0o" firstAttribute="centerY" secondItem="rl6-JC-pbj" secondAttribute="centerY" id="har-ci-MTH"/>
+                                    <constraint firstItem="76K-VW-G0o" firstAttribute="leading" secondItem="rl6-JC-pbj" secondAttribute="leading" constant="5" id="hhX-p0-QiG"/>
+                                    <constraint firstAttribute="trailing" secondItem="76K-VW-G0o" secondAttribute="trailing" constant="30" id="k5L-HZ-jJ1">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="5"/>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rl6-JC-pbj" firstAttribute="leading" secondItem="BmC-sq-aUx" secondAttribute="leading" constant="5" id="2dC-eB-WZF"/>
+                            <constraint firstAttribute="bottom" secondItem="rl6-JC-pbj" secondAttribute="bottom" constant="10" id="9k7-xe-VgQ"/>
+                            <constraint firstItem="blK-Nw-O72" firstAttribute="leading" secondItem="BmC-sq-aUx" secondAttribute="leading" constant="10" id="AzC-KM-JWZ"/>
+                            <constraint firstItem="rl6-JC-pbj" firstAttribute="top" secondItem="blK-Nw-O72" secondAttribute="bottom" constant="5" id="Lhm-2P-AJN"/>
+                            <constraint firstAttribute="trailing" secondItem="blK-Nw-O72" secondAttribute="trailing" constant="10" id="Q6H-e4-NWr"/>
+                            <constraint firstAttribute="trailing" secondItem="rl6-JC-pbj" secondAttribute="trailing" constant="5" id="g6h-V1-fa4"/>
+                            <constraint firstItem="blK-Nw-O72" firstAttribute="top" secondItem="BmC-sq-aUx" secondAttribute="top" constant="10" id="gjw-4E-sBw"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" systemColor="systemGray5Color"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="BmC-sq-aUx" secondAttribute="bottom" constant="5" id="2vz-2R-mo3"/>
+                    <constraint firstItem="BmC-sq-aUx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="5mO-Il-08i"/>
+                    <constraint firstItem="BmC-sq-aUx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="DdT-cF-VKG"/>
+                    <constraint firstAttribute="trailing" secondItem="BmC-sq-aUx" secondAttribute="trailing" constant="5" id="xbU-MH-EF7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="base_vw" destination="BmC-sq-aUx" id="DaU-cG-BGB"/>
+                <outlet property="dateTextField" destination="76K-VW-G0o" id="PU3-AB-s0H"/>
+                <outlet property="questionTitle" destination="blK-Nw-O72" id="bBE-L0-8S3"/>
+            </connections>
+            <point key="canvasLocation" x="-29.007633587786259" y="-6.3380281690140849"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Cell_Color">
+            <color red="0.9179999828338623" green="0.95300000905990601" blue="0.99199998378753662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

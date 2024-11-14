@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Skype_Picture_2024_10_21T09_41_05_027Z.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Skype_Picture_2024_10_21T09_41_05_027Z 1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Skype_Picture_2024_10_21T09_41_05_027Z 2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

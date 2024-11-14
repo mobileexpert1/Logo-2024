@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextViewTableCell" rowHeight="223" id="KGk-i7-Jjw" customClass="TextViewTableCell" customModule="Logo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="535" height="223"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="535" height="223"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dIo-NU-bjq">
+                        <rect key="frame" x="5" y="5" width="525" height="208"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visual Inspection of entire system" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bd-qU-lJs">
+                                <rect key="frame" x="10" y="10" width="505" height="33"/>
+                                <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4JE-Sm-faL">
+                                <rect key="frame" x="5" y="48" width="515" height="150"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yef-84-K5e">
+                                        <rect key="frame" x="10" y="12" width="495" height="130"/>
+                                        <color key="backgroundColor" name="Cell_Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="lHa-wY-5X0">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="130"/>
+                                            </constraint>
+                                        </constraints>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="yef-84-K5e" firstAttribute="leading" secondItem="4JE-Sm-faL" secondAttribute="leading" constant="10" id="bzQ-Lf-Zui"/>
+                                    <constraint firstAttribute="trailing" secondItem="yef-84-K5e" secondAttribute="trailing" constant="30" id="d6g-dZ-HXQ">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="300" id="dTo-h3-RBl">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="150"/>
+                                    </constraint>
+                                    <constraint firstItem="yef-84-K5e" firstAttribute="centerY" secondItem="4JE-Sm-faL" secondAttribute="centerY" constant="2" id="eYM-vr-fuP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8bd-qU-lJs" firstAttribute="top" secondItem="dIo-NU-bjq" secondAttribute="top" constant="10" id="3Q1-y6-QmC"/>
+                            <constraint firstAttribute="trailing" secondItem="8bd-qU-lJs" secondAttribute="trailing" constant="10" id="AxO-fy-Qbq"/>
+                            <constraint firstItem="4JE-Sm-faL" firstAttribute="top" secondItem="8bd-qU-lJs" secondAttribute="bottom" constant="5" id="MdD-tv-LmB"/>
+                            <constraint firstAttribute="bottom" secondItem="4JE-Sm-faL" secondAttribute="bottom" constant="10" id="W9t-L3-t5W"/>
+                            <constraint firstItem="4JE-Sm-faL" firstAttribute="leading" secondItem="dIo-NU-bjq" secondAttribute="leading" constant="5" id="Yp0-fW-PB8"/>
+                            <constraint firstAttribute="trailing" secondItem="4JE-Sm-faL" secondAttribute="trailing" constant="5" id="prz-fh-4hl"/>
+                            <constraint firstItem="8bd-qU-lJs" firstAttribute="leading" secondItem="dIo-NU-bjq" secondAttribute="leading" constant="10" id="zwE-pm-aZ8"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" systemColor="systemGray5Color"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dIo-NU-bjq" secondAttribute="trailing" constant="5" id="0sb-s4-Ysi"/>
+                    <constraint firstAttribute="bottom" secondItem="dIo-NU-bjq" secondAttribute="bottom" constant="10" id="KEE-VF-rXh"/>
+                    <constraint firstItem="dIo-NU-bjq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="nxO-7k-hYJ"/>
+                    <constraint firstItem="dIo-NU-bjq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="zeK-il-3Ya"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="base_Vw" destination="dIo-NU-bjq" id="03X-vT-1KM"/>
+                <outlet property="questionTitle" destination="8bd-qU-lJs" id="p5g-kF-LeY"/>
+                <outlet property="textView" destination="yef-84-K5e" id="vB2-JI-mEy"/>
+            </connections>
+            <point key="canvasLocation" x="284.73282442748092" y="30.633802816901412"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Cell_Color">
+            <color red="0.9179999828338623" green="0.95300000905990601" blue="0.99199998378753662" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
